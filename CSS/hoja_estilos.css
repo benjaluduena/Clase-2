@@ -1,0 +1,69 @@
+h1 {
+    font-size: 70px;
+    font-style: oblique;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 45px;
+    animation: cambioColor 5s linear infinite;
+}
+
+/*
+Tipos de Selectores
+-1 Por etiqueta especifica
+-2 Por Class 
+-3 Por ID #+nombre
+*/
+body {
+    background-image: url(./Imagenes/fondo-tecnologia-cadena-lenguaje-programacion-codigo-informatico_622400-14.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.fondoVerde {
+    background-color: greenyellow;
+}
+
+@keyframes cambioColor {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: blue;
+    }
+
+    50% {
+        color: green;
+    }
+
+    75% {
+        color: orange;
+    }
+
+    100% {
+        color: purple;
+    }
+}
+
+ol {
+    display: block;
+    background-color: brown;
+}
+
+button {
+    display: block;
+}
+
+#Imagen {
+    height: 200px;
+}
+
+.bordeAzul {
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+}
